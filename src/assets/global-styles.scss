@@ -1,0 +1,59 @@
+.card-header {
+    font: 900 2rem/1 sans-serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.02rem;
+  
+    @media (min-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  p {
+    line-height: 1rem;
+  }
+
+  .log-in-cards {
+    padding: 20px;
+    font: 1.2rem sans-serif;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    min-width: 330px;
+    height: 50vh;
+  
+    @media (min-width: 768px) {
+      min-width: 700px;
+    }
+  }
+
+  .form-group-container {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+  .form-btn {
+    font: 900 1rem/1.5rem sans-serif;
+    letter-spacing: -0.01rem;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    padding: 11px 0;
+    margin: 15px auto 10px auto;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+  }
+
+  .form-inputs {
+    padding: 15px;
+    margin-bottom: 16px;
+    border: none;
+    background: rgb(117, 128, 138, 0.1);
+    border-radius: 10px;
+  
+    @media (min-width: 768px){
+      width: 80%;
+      margin: 0 auto 16px auto;
+    }
+  }
