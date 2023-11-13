@@ -61,7 +61,6 @@
 
    @media (min-width: 768px) {
       width: 80%;
-      margin: 0 auto 16px auto;
    }
 }
 .admin-login-page {
